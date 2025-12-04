@@ -5,12 +5,11 @@ Orthogonal Cascaded Epileptiform Attention Network
 
 A unified attention architecture for cross-species epileptiform activity detection
 
-Vita Shaw
 """
 
 import torch
 import torch.nn as nn
-from linear_attention_transformer import LinearAttentionTransformer
+from lat import LinearAttentionTransformer
 from einops.layers.torch import Rearrange, Reduce
 
 
